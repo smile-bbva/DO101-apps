@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'HOOOLA CAPACITacion red had' + '\n';
+    response = 'version 3' + '\n';
 
     //send the response to the client
     res.send(response);
